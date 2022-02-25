@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("prad93/kube-jenkins")
+       app = docker.build("prad93/test")
     }
 
     stage('Test image') {
